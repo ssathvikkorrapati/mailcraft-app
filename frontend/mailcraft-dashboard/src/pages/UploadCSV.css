@@ -1,0 +1,46 @@
+/* src/pages/UploadCsv.css */
+
+.upload-csv {
+    max-width: 600px;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .upload-csv h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  .upload-csv input[type="file"] {
+    display: block;
+    margin-bottom: 20px;
+    font-size: 16px;
+  }
+  
+  .upload-csv button {
+    background-color: #5c67f2;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .upload-csv button:hover {
+    background-color: #4a56d4;
+  }
+  
+  .data-output {
+    margin-top: 20px;
+    background-color: #f4f4f9;
+    padding: 10px;
+    border-radius: 4px;
+    font-size: 14px;
+  }
+
+  

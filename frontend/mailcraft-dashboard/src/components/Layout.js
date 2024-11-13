@@ -1,17 +1,16 @@
 // src/components/Layout.js
 import React from 'react';
 import { Outlet } from 'react-router-dom';
-import Sidebar from './Sidebar'; // Adjust if you have a different navigation component
+import Sidebar from './Sidebar';
+import './Layout.css';
 
 const Layout = () => {
   return (
     <div className="layout">
-      <aside className="sidebar">
-        <Sidebar /> {/* Ensure your sidebar/navigation component is rendered */}
-      </aside>
-      <main className="main-content">
-        <Outlet /> {/* This renders the child routes */}
-      </main>
+      <Sidebar />
+      <div className="content">
+        <Outlet />
+      </div>
     </div>
   );
 };

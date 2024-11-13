@@ -1,0 +1,39 @@
+/* src/pages/SheetsData.css */
+
+.sheets-data {
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .sheets-data h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  .sheets-data table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+  }
+  
+  .sheets-data th,
+  .sheets-data td {
+    padding: 10px;
+    text-align: left;
+    border: 1px solid #ddd;
+  }
+  
+  .sheets-data th {
+    background-color: #f4f4f9;
+  }
+  
+  .error {
+    color: red;
+    font-size: 14px;
+  }
+  

@@ -1,6 +1,7 @@
 // src/pages/SheetsData.js
 import React, { useEffect, useState } from 'react';
 import { fetchSheetData } from '../api/apiService';
+import './SheetsData.css';
 
 const SheetsData = () => {
   const [data, setData] = useState([]);
@@ -20,9 +21,9 @@ const SheetsData = () => {
   }, []);
 
   return (
-    <div>
+    <div className="sheets-data">
       <h2>Google Sheets Data</h2>
-      {error && <p>{error}</p>}
+      {error && <p className="error">{error}</p>}
       {data.length ? (
         <table>
           <thead>
